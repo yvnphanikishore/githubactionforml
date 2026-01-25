@@ -105,7 +105,7 @@ class ChurnModelPipeline:
         print("Pipeline saved as 'churn_prediction.skops'.")
 if __name__ == "__main__":
     # Configuration
-    data_file = "Churn_modelling.csv"
+    data_file = "Churn_Modelling.csv"
     target_col = "Exited"
     drop_cols = ["RowNumber", "CustomerId", "Surname"]
 
