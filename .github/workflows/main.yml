@@ -17,7 +17,7 @@ jobs:
           lfs: true
       - uses: iterative/setup-cml@v2
       - name: Install Packages
-        run: pip install --upgrade pip && pip install -r resuirements.txt
+        run: pip install --upgrade pip && pip install -r requirements.txt
       - name: Format
         run: BLACK *.py
       - name: Train
