@@ -30,4 +30,10 @@ jobs:
           cat metrics.txt >> report.md
           echo '## Confusion Matrix Plot' >> report.md
           echo '![Confusion Matrix](model_results.png)' >> report.md
+          echo '## ROC Curve' >> report.md
+          echo '![ROC Curve](roc_curve.png)' >> report.md
           cml comment create report.md
+
+          
+
+
